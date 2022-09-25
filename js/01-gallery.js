@@ -31,8 +31,8 @@ function onGetOriginalImg(evt) {
     return;
   }
 
-  const modal = basicLightbox.create(`<img src="${evt.target.dataset.source} width="800" height="600">`);
-  modal.show();
+  const instance = basicLightbox.create(`<img src="${evt.target.dataset.source}" width="800" height="600">`);
+  instance.show();
 }
 
 // document.querySelector("a.gallery__link").onclick = () => {
