@@ -22,7 +22,7 @@ container.insertAdjacentHTML("beforeend", galleryList);
 console.log(container);
 
 const lightbox = new SimpleLightbox(".gallery a", { captionType: "alt", captionsData: "alt", captionPosition: "bottom", captionDelay: "250" });
-
+console.log(lightbox);
 // container.addEventListener("click", onGetOriginalImg);
 
 // function onGetOriginalImg(evt) {
